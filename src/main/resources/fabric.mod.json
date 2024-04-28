@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "gravetokens",
+  "version": "${version}",
+  "name": "gravetokens",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.cogravetokens/Sascha-T/laetus"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      "de.saschat.gravetokens.GraveTokens"
+    ],
+    "main": [
+      "de.saschat.gravetokens.GraveTokens"
+    ]
+  },
+  "mixins": [
+    "gravetokens.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
